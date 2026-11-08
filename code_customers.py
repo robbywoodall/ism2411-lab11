@@ -1,3 +1,9 @@
+# --- Reflection 1 ---
+# In the real world, customers may not always provide you with all of their data. There could be multiple instances
+# in a customer's data where information is blank. If a key doesn't exist, use a reasonable default defined by the data being collected.
+# --- Reflection 2 ---
+# According to the reading, it is supposed to be similar to VLOOKUP from excel. The dictionary is the lookup table. 
+# Python dictionaries can make looking up more efficient.
 # --- Exercise 1 ---
 customer = {
     "name": "Cooper",
