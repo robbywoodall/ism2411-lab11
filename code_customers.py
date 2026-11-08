@@ -17,3 +17,15 @@ customer["tier"] = "platinum"
 print(customer)
 del customer["email"]
 print(customer)
+# --- Exercise 3 ---
+print(customer.get("email", "no email on file"))
+try:
+    print(customer["email"])
+except KeyError:
+    print("KeyError caught! No email. Use .get for error checking!")
+# --- Exercise 4 ---
+for key in customer: #without .items() only looks at the labels on the folders
+    print(key, customer[key])
+for key, val in customer.items(): #with .items() gives the matched set on every pass
+    print(f"{key}: {val}")
+# --- Exercise 5 ---
